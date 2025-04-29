@@ -1,0 +1,1 @@
+<img width="150" class="rounded-lg" src="{{ asset('logo.jpg') }}" alt="">
