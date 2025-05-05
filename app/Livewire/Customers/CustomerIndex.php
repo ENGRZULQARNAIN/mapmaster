@@ -33,7 +33,12 @@ class CustomerIndex extends Component
         $this->success('User deleted successfully');
     }
 
-
+    public function confirDelete($id)
+    {
+        // Call the delete method directly
+        $this->delete($id);
+    }
+    
     public function showPaymentDetails($paymentId)
     {
         $this->selectedOrder = Payment::find($paymentId);
